@@ -30,7 +30,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     // AdAdapted
-    compile(name: 'addit_sdk', ext: 'aar')
-    compile 'com.google.android.gms:play-services-ads:10.2.1'
+    compile(name: 'adadapted_sdk', ext: 'aar')
+    compile 'com.google.android.gms:play-services-ads:10.2.6'
     compile 'com.android.volley:volley:1.0.0'
 }

@@ -179,6 +179,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <declare-styleable name="AAImageAdView"><attr format="string" name="zone_id"/></declare-styleable>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -653,6 +654,17 @@
     <dimen name="notification_top_pad_large_text">5dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="aa_ad_app_icon_1" type="id"/>
+    <item name="aa_ad_app_icon_2" type="id"/>
+    <item name="aa_ad_campaign_image" type="id"/>
+    <item name="aa_ad_cta_1" type="id"/>
+    <item name="aa_ad_cta_2" type="id"/>
+    <item name="aa_ad_long_text" type="id"/>
+    <item name="aa_ad_sponsor_logo" type="id"/>
+    <item name="aa_ad_sponsor_name" type="id"/>
+    <item name="aa_ad_sponsor_text" type="id"/>
+    <item name="aa_ad_tag_line" type="id"/>
+    <item name="aa_ad_title" type="id"/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
@@ -674,7 +686,7 @@
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
-    <integer name="google_play_services_version">10298000</integer>
+    <integer name="google_play_services_version">10260000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>

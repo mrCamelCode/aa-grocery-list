@@ -18,16 +18,26 @@ import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
+import com.adadapted.android.sdk.ui.messaging.AaSdkContentListener;
+import com.adadapted.android.sdk.ui.model.AdContentPayload;
+import com.adadapted.android.sdk.ui.view.AaZoneView;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity
+public class MainActivity extends AppCompatActivity implements AaSdkContentListener
 {
     // Whether the user wants to see the removed list items.
     public static boolean showRemoved;
     public static LinearLayout listLinLay;
     public static EditText itemNameEditText, itemQuantityEditText;
     public static Context mainContext;
+
+    private AaZoneView mainActivityAd;
 
     ArrayList<Button> activeListItems = new ArrayList<Button>();
 
@@ -45,6 +55,9 @@ public class MainActivity extends AppCompatActivity
         itemNameEditText = (EditText) findViewById(R.id.itemName);
         itemQuantityEditText = (EditText)findViewById(R.id.itemQuantity);
         mainContext = this;
+
+        mainActivityAd = (AaZoneView)findViewById(R.id.mainActivityAd);
+        mainActivityAd.init("100825");
     }
 
     @Override
@@ -69,6 +82,36 @@ public class MainActivity extends AppCompatActivity
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        mainActivityAd.onStart(this);
+    }
+
+    @Override
+    public void onStop() {
+        super.onPause();
+        mainActivityAd.onStop(this);
+    }
+
+    @Override
+    public void onContentAvailable(String zoneId, AdContentPayload contentPayload)
+    {
+        try
+        {
+            JSONArray array = contentPayload.getPayload().getJSONArray(AdContentPayload.FIELD_ADD_TO_LIST_ITEMS);
+            for(int i = 0; i < array.length(); i++)
+            {
+                addListItem(new ListItem(this, array.getString(i), 1, true));
+            }
+            contentPayload.acknowledge();
+        }
+        catch(JSONException ex)
+        {
+            Log.d("SDKFAILURE", "Failed to add item to list.");
+        }
     }
 
     /*
@@ -113,23 +156,6 @@ public class MainActivity extends AppCompatActivity
     private void addListItem(ListItem li)
     {
         LinearLayout listLinLay = (LinearLayout) findViewById(R.id.itemListLinearLayout);
-
-        // Create new item and parent it to the list's layout if the item has a name.
-        if (li.itemName != "")
-            // Create new item and parent it to the list's layout.
-            listLinLay.addView(li);
-    }
-
-    /*
-        To be used primarily with Addit. This method ignores the values found
-        in the input fields and instead accepts parameters for what content to
-        put in the list item. It can be used to accept any kind of list item
-        that isn't generated from the app's normal input fields.
-     */
-    public static void addExternalListItem(String itemName, int itemQuantity)
-    {
-        // Make the new list item.
-        ListItem li = new ListItem(mainContext, itemName, itemQuantity, true);
 
         // Create new item and parent it to the list's layout if the item has a name.
         if (li.itemName != "")
