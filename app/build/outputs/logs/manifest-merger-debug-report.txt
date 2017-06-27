@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml
@@ -13,52 +13,106 @@ ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\a
 	android:versionCode
 		INJECTED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:6:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:8:5-47:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Cheerio\.android\build-cache\c1c603688b288249a0cbb66a508b0a10b00f5590\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Cheerio\.android\build-cache\a879807df4233897fa1093787681080c81b6318d\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Cheerio\.android\build-cache\83ed7f714531985166295ecb31d1737dd0c7be78\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Cheerio\.android\build-cache\fd3237e75dd3a51d8504c5429a8281d5b03952fc\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Cheerio\.android\build-cache\67ff625697f2aa6412fc5710f1403ad046d273b5\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Cheerio\.android\build-cache\68568bbc24a51173caa5ff1c719c904109967b47\output\AndroidManifest.xml:26:5-20
+MERGED from [:addit_sdk:] C:\Users\Cheerio\.android\build-cache\faefec70b89d371e19f86a0db875d5df85f96c9a\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\Cheerio\.android\build-cache\70cdacd486b9ab44bf02b5bbf5a798545c53c9ab\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Cheerio\.android\build-cache\09f2bdc78530d075e90888f53c9bf5fc39910a32\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Cheerio\.android\build-cache\2d1dd0805148237715ae6f64cf51b1e40232923a\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] C:\Users\Cheerio\.android\build-cache\3f6f11207a3e139fdb63306d6d5680e0e0f7537c\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Cheerio\.android\build-cache\186c019794b711c207cb1980ccd92249428ac457\output\AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Cheerio\.android\build-cache\9118db7e274715a282f77f455e9681cc840d23ea\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Cheerio\.android\build-cache\94272ae1915d5d5655b8648afbec447eb3a03424\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Cheerio\.android\build-cache\f32ee49bff34f263b56a4f968cb37099beded231\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Cheerio\.android\build-cache\f986c4ea45190ba109f29733e00f533e7327d634\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Cheerio\.android\build-cache\f94edf56e4d06ac469967b5c33cdba37b66cd051\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Cheerio\.android\build-cache\fb2a0a3fca16000117b80145c3acd6136082eb43\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Cheerio\.android\build-cache\6b8e14c35aa7b6f2ed1da26c6bb981b9f49877a2\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:13:9-35
 	android:roundIcon
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:12:9-54
 	android:allowBackup
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:15:9-41
 activity#com.aa.josh.aagrocerylist.MainActivity
-ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:12:9-22:20
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:16:9-26:20
 	android:label
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:18:13-45
 	android:windowSoftInputMode
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:16:13-54
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:20:13-54
 	android:theme
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:15:13-56
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:17:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.adadapted.sdk.addit.ui.AdditInterceptActivity
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:27:9-46:20
+	android:excludeFromRecents
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:29:13-44
+	android:taskAffinity
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:28:13-77
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:32:13-45:29
+	android:label
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:32:28-60
+action#android.intent.action.VIEW
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:35:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:36:17-78
+	android:name
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:36:27-75
+data
+ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:40:17-43:46
+	android:host
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:41:21-45
+	android:scheme
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:43:21-43
+	android:pathPrefix
+		ADDED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml:42:21-43
 uses-sdk
 INJECTED from C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Cheerio\.android\build-cache\c1c603688b288249a0cbb66a508b0a10b00f5590\output\AndroidManifest.xml:5:5-7:41
@@ -68,12 +122,21 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Cheer
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Cheerio\.android\build-cache\67ff625697f2aa6412fc5710f1403ad046d273b5\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Cheerio\.android\build-cache\bc7f5b9de15c8d85193801bd6701bb1f0c0ad4a6\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Cheerio\.android\build-cache\68568bbc24a51173caa5ff1c719c904109967b47\output\AndroidManifest.xml:20:5-44
+MERGED from [:addit_sdk:] C:\Users\Cheerio\.android\build-cache\faefec70b89d371e19f86a0db875d5df85f96c9a\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-ads:10.2.1] C:\Users\Cheerio\.android\build-cache\f50c934504948840db12f9d85529e7c7d33b025f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\Cheerio\.android\build-cache\70cdacd486b9ab44bf02b5bbf5a798545c53c9ab\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Cheerio\.android\build-cache\09f2bdc78530d075e90888f53c9bf5fc39910a32\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Cheerio\.android\build-cache\2d1dd0805148237715ae6f64cf51b1e40232923a\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] C:\Users\Cheerio\.android\build-cache\3f6f11207a3e139fdb63306d6d5680e0e0f7537c\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Cheerio\.android\build-cache\186c019794b711c207cb1980ccd92249428ac457\output\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Cheerio\.android\build-cache\9118db7e274715a282f77f455e9681cc840d23ea\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Cheerio\.android\build-cache\94272ae1915d5d5655b8648afbec447eb3a03424\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Cheerio\.android\build-cache\f32ee49bff34f263b56a4f968cb37099beded231\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Cheerio\.android\build-cache\f986c4ea45190ba109f29733e00f533e7327d634\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Cheerio\.android\build-cache\f94edf56e4d06ac469967b5c33cdba37b66cd051\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Cheerio\.android\build-cache\fb2a0a3fca16000117b80145c3acd6136082eb43\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Cheerio\.android\build-cache\6b8e14c35aa7b6f2ed1da26c6bb981b9f49877a2\output\AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Cheerio\.android\build-cache\a879807df4233897fa1093787681080c81b6318d\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -99,3 +162,31 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Cheerio\.androi
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Cheerio\.android\build-cache\a879807df4233897fa1093787681080c81b6318d\output\AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Cheerio\.android\build-cache\a879807df4233897fa1093787681080c81b6318d\output\AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\Cheerio\.android\build-cache\67e57ef24a134040fa8629162fa87f14ce66e08a\output\AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Cheerio\.android\build-cache\09f2bdc78530d075e90888f53c9bf5fc39910a32\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Cheerio\.android\build-cache\09f2bdc78530d075e90888f53c9bf5fc39910a32\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Cheerio\.android\build-cache\09f2bdc78530d075e90888f53c9bf5fc39910a32\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Cheerio\.android\build-cache\09f2bdc78530d075e90888f53c9bf5fc39910a32\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Cheerio\.android\build-cache\186c019794b711c207cb1980ccd92249428ac457\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Cheerio\.android\build-cache\186c019794b711c207cb1980ccd92249428ac457\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Cheerio\.android\build-cache\186c019794b711c207cb1980ccd92249428ac457\output\AndroidManifest.xml:20:20-65

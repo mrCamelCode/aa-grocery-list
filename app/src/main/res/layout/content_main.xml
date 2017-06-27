@@ -15,11 +15,11 @@
         android:layout_marginEnd="42dp"
         android:layout_marginRight="42dp"
         android:background="@color/colorPrimary"
-        android:onClick="addListItem"
+        android:onClick="btn_addListItem"
         android:text="Add Item"
         android:textColor="@android:color/white"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBaseline_toBaselineOf="@+id/itemName" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/itemName"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/btn_clearList"

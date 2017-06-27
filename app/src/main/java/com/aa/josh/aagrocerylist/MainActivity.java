@@ -25,9 +25,11 @@ public class MainActivity extends AppCompatActivity
 {
     // Whether the user wants to see the removed list items.
     public static boolean showRemoved;
+    public static LinearLayout listLinLay;
+    public static EditText itemNameEditText, itemQuantityEditText;
+    public static Context mainContext;
 
     ArrayList<Button> activeListItems = new ArrayList<Button>();
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -37,8 +39,12 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // Initialize showRemoved by grabbing the value from the switch.
+        // Initialize refs that have UI link.
         showRemoved = ((Switch)findViewById(R.id.showRemovedSwitch)).isChecked();
+        listLinLay = (LinearLayout)findViewById(R.id.itemListLinearLayout);
+        itemNameEditText = (EditText) findViewById(R.id.itemName);
+        itemQuantityEditText = (EditText)findViewById(R.id.itemQuantity);
+        mainContext = this;
     }
 
     @Override
@@ -67,14 +73,12 @@ public class MainActivity extends AppCompatActivity
 
     /*
         Called on click of add item button. Adds the new item to the list.
+        Properly handles cases associated with adding items via the app's
+        interface, such as closing keyboard on finish and clearing input
+        fields.
      */
-    public void addListItem(View view)
+    public void btn_addListItem(View view)
     {
-        // View refs
-        EditText itemNameTextView = (EditText) findViewById(R.id.itemName);
-        EditText itemQuantityTextView = (EditText) findViewById(R.id.itemQuantity);
-        LinearLayout listLinLay = (LinearLayout) findViewById(R.id.itemListLinearLayout);
-
         // Get info from input fields and check for legal input.
         /*
             Note: Have to check input with length method because an empty
@@ -83,21 +87,16 @@ public class MainActivity extends AppCompatActivity
             or null object. So, if the length is 0, that means the input is
             empty. Doing this check avoids an exception with Integer.parseInt.
          */
-        String itemName = (itemNameTextView.getText().length() == 0) ?
-                "" : itemNameTextView.getText().toString();
-        int itemQuantity = (itemQuantityTextView.getText().length() == 0) ?
-                1 : Integer.parseInt(itemQuantityTextView.getText().toString());
-
-        itemQuantityTextView.getText();
+        String itemName = (itemNameEditText.getText().length() == 0) ?
+                "" : itemNameEditText.getText().toString();
+        int itemQuantity = (itemQuantityEditText.getText().length() == 0) ?
+                1 : Integer.parseInt(itemQuantityEditText.getText().toString());
 
         // Clear the input fields for ease of use.
-        itemNameTextView.setText("");
-        itemQuantityTextView.setText("");
+        itemNameEditText.setText("");
+        itemQuantityEditText.setText("");
 
-        // Create new item and parent it to the list's layout if the item has a name.
-        if (itemName != "")
-            // Create new item and parent it to the list's layout.
-            listLinLay.addView(new ListItem(this, itemName, itemQuantity, true));
+        addListItem(new ListItem(this, itemName, itemQuantity, true));
 
         // Close the keyboard after clicking the Add Item button.
         // Check if no view has focus:
@@ -106,6 +105,36 @@ public class MainActivity extends AppCompatActivity
             InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
+    }
+
+    /*
+        Adds a list item to the list.
+     */
+    private void addListItem(ListItem li)
+    {
+        LinearLayout listLinLay = (LinearLayout) findViewById(R.id.itemListLinearLayout);
+
+        // Create new item and parent it to the list's layout if the item has a name.
+        if (li.itemName != "")
+            // Create new item and parent it to the list's layout.
+            listLinLay.addView(li);
+    }
+
+    /*
+        To be used primarily with Addit. This method ignores the values found
+        in the input fields and instead accepts parameters for what content to
+        put in the list item. It can be used to accept any kind of list item
+        that isn't generated from the app's normal input fields.
+     */
+    public static void addExternalListItem(String itemName, int itemQuantity)
+    {
+        // Make the new list item.
+        ListItem li = new ListItem(mainContext, itemName, itemQuantity, true);
+
+        // Create new item and parent it to the list's layout if the item has a name.
+        if (li.itemName != "")
+            // Create new item and parent it to the list's layout.
+            listLinLay.addView(li);
     }
 
     /*

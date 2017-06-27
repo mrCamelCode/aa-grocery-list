@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="addit_sdk-">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/faefec70b89d371e19f86a0db875d5df85f96c9a/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/faefec70b89d371e19f86a0db875d5df85f96c9a/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -16,12 +16,17 @@ import android.widget.LinearLayout;
 public class ListItem extends AppCompatButton
 {
     public boolean isRemoved;
+    public String itemName;
+    public int itemQuantity;
 
     // If setDefaults is true, the default styling for a list
     // item button is applied.
     public ListItem(Context c, String itemName, int itemQuantity, boolean setDefaults)
     {
         super(c);
+
+        this.itemName = itemName;
+        this.itemQuantity = itemQuantity;
 
         if (setDefaults)
         {
