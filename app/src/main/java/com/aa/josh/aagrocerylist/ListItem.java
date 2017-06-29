@@ -16,12 +16,22 @@ import android.widget.LinearLayout;
 public class ListItem extends AppCompatButton
 {
     public boolean isRemoved;
+    public String itemName;
+    public int itemQuantity;
+
+    private int backgroundColor = 0xff0099cc; // 0xffdddddd
+    private int removedBackgroundColor = 0x55ff0000;
+    private int textColor = 0xffffffff;
+    private int removedTextColor = 0xffffffff;
 
     // If setDefaults is true, the default styling for a list
     // item button is applied.
     public ListItem(Context c, String itemName, int itemQuantity, boolean setDefaults)
     {
         super(c);
+
+        this.itemName = itemName;
+        this.itemQuantity = itemQuantity;
 
         if (setDefaults)
         {
@@ -42,7 +52,8 @@ public class ListItem extends AppCompatButton
             });
 
             // In-depth styling
-            setBackgroundColor(0xffdddddd);
+            setBackgroundColor(backgroundColor);
+            setTextColor(textColor);
             // START SET MARGIN
             // Create linear layout.
             LinearLayout.LayoutParams llp =
@@ -69,8 +80,8 @@ public class ListItem extends AppCompatButton
     {
         isRemoved = true;
 
-        setBackgroundColor(0x55ff0000);
-        setTextColor(0xffffffff);
+        setBackgroundColor(removedBackgroundColor);
+        setTextColor(removedTextColor);
 
         if (!MainActivity.showRemoved)
             setVisibility(View.GONE);
@@ -84,7 +95,7 @@ public class ListItem extends AppCompatButton
     {
         isRemoved = false;
 
-        setBackgroundColor(0xffdddddd);
-        setTextColor(0xff000000);
+        setBackgroundColor(backgroundColor);
+        setTextColor(textColor);
     }
 }
