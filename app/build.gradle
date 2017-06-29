@@ -33,4 +33,9 @@ dependencies {
     compile(name: 'adadapted_sdk', ext: 'aar')
     compile 'com.google.android.gms:play-services-ads:10.2.6'
     compile 'com.android.volley:volley:1.0.0'
+
+    // Addit
+    compile(name: 'addit_sdk', ext: 'aar')
+    compile 'com.google.android.gms:play-services-ads:10.2.1'
+    compile 'com.android.volley:volley:1.0.0'
 }

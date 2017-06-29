@@ -35,9 +35,10 @@ public class MainActivity extends AppCompatActivity implements AaSdkContentListe
     public static boolean showRemoved;
     public static LinearLayout listLinLay;
     public static EditText itemNameEditText, itemQuantityEditText;
-    public static Context mainContext;
 
     private AaZoneView mainActivityAd;
+    private static Context mainContext; // Mainly used to access the context for creating a
+                                        // new list item with externalAddListItem().
 
     ArrayList<Button> activeListItems = new ArrayList<Button>();
 
@@ -111,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements AaSdkContentListe
         }
         catch(JSONException ex)
         {
-            Log.d("SDKFAILURE", "Failed to add item to list.");
+            Log.d("AASDK", "Failed to add item to list.");
         }
     }
 
@@ -156,13 +157,25 @@ public class MainActivity extends AppCompatActivity implements AaSdkContentListe
      */
     private void addListItem(ListItem li)
     {
-        LinearLayout listLinLay = (LinearLayout) findViewById(R.id.itemListLinearLayout);
+        // Create new item and parent it to the list's layout if the item has a name.
+        if (li.itemName != "")
+            // Create new item and parent it to the list's layout.
+            listLinLay.addView(li);
+    }
+
+    /*
+        Used for Addit. Allows an item to be added by a method from outside this class.
+     */
+    public static void externalAddListItem(String itemName, int itemQuantity)
+    {
+        ListItem li = new ListItem(mainContext, itemName, itemQuantity, true);
 
         // Create new item and parent it to the list's layout if the item has a name.
         if (li.itemName != "")
             // Create new item and parent it to the list's layout.
             listLinLay.addView(li);
     }
+
 
     /*
         Called on click of clear list button. Clears the entire list.

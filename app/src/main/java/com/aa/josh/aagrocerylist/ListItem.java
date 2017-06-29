@@ -39,9 +39,11 @@ public class ListItem extends AppCompatButton
             setText(itemName + " (" + itemQuantity + ")");
 
             // Set onClick behavior
-            setOnClickListener(new View.OnClickListener() {
+            setOnClickListener(new View.OnClickListener()
+            {
                 @Override
-                public void onClick(View v) {
+                public void onClick(View v)
+                {
                     ListItem li = (ListItem) v;
 
                     if (li.isRemoved)

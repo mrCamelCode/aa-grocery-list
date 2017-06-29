@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\a879807df4233897fa1093787681080c81b6318d\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\55c22f477a40d758b2684cad37d2ed8bee79ba0d\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\a879807df4233897fa1093787681080c81b6318d\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
@@ -40,24 +40,24 @@
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\a879807df4233897fa1093787681080c81b6318d\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
-        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\55c22f477a40d758b2684cad37d2ed8bee79ba0d\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
-    },
-    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\55c22f477a40d758b2684cad37d2ed8bee79ba0d\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\55c22f477a40d758b2684cad37d2ed8bee79ba0d\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
