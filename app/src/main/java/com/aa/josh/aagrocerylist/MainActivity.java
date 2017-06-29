@@ -104,7 +104,8 @@ public class MainActivity extends AppCompatActivity implements AaSdkContentListe
             JSONArray array = contentPayload.getPayload().getJSONArray(AdContentPayload.FIELD_ADD_TO_LIST_ITEMS);
             for(int i = 0; i < array.length(); i++)
             {
-                addListItem(new ListItem(this, array.getString(i), 1, true));
+                if (!array.isNull(i))
+                    addListItem(new ListItem(this, array.getString(i), 1, true));
             }
             contentPayload.acknowledge();
         }
