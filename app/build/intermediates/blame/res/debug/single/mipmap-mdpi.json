@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\Cheerio\\Documents\\GitHub\\aa-grocery-list\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Cheerio\\Documents\\GitHub\\aa-grocery-list\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Cheerio\\Documents\\GitHub\\aa-grocery-list\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Cheerio\\Documents\\GitHub\\aa-grocery-list\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
