@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\a879807df4233897fa1093787681080c81b6318d\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\a879807df4233897fa1093787681080c81b6318d\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -92,16 +92,16 @@
         "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Josh\\.android\\build-cache\\18c04198064b9d19261ced829437286fa61b993f\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\18c04198064b9d19261ced829437286fa61b993f\\output\\res\\layout\\design_navigation_item_separator.xml"
+        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -168,12 +168,12 @@
         "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\a879807df4233897fa1093787681080c81b6318d\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\a879807df4233897fa1093787681080c81b6318d\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",

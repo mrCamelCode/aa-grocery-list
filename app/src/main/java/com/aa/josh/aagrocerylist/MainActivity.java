@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity
     /*
         Called on click of add item button. Adds the new item to the list.
      */
-    public void addListItem(View view)
+    public void btn_addListItem(View view)
     {
         // View refs
         EditText itemNameTextView = (EditText) findViewById(R.id.itemName);
