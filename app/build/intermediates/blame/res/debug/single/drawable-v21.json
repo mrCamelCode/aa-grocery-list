@@ -1,43 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\a879807df4233897fa1093787681080c81b6318d\\output\\res\\drawable-v21\\avd_hide_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\18c04198064b9d19261ced829437286fa61b993f\\output\\res\\drawable-v21\\avd_show_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\18c04198064b9d19261ced829437286fa61b993f\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\18c04198064b9d19261ced829437286fa61b993f\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
@@ -54,10 +26,6 @@
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\18c04198064b9d19261ced829437286fa61b993f\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",

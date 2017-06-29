@@ -8,18 +8,6 @@
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout-v11\\notification_media_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
-    },
-    {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\layout-v11\\notification_media_action.xml"
     },
@@ -32,19 +20,7 @@
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout-v11\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
-    },
-    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\Josh\\Documents\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Josh\\.android\\build-cache\\3b5f896625efa227fe820fc852faed752c0dd27a\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     }
 ]
