@@ -32,13 +32,15 @@ public class AAGroceryListApp extends Application
                     @Override
                     public void onContentAvailable(final Content content)
                     {
+                        Log.d("ADDIT", "Received");
+
                         // Handle the payload if it has something in it.
                         if (content.getPayload().size() > 0)
                         {
                             // Go through the payload and add every item.
                             for (AddToListItem li : content.getPayload())
                                 MainActivity.externalAddListItem(
-                                        li.getTitle() + " from " + li.getBrand(), 1);
+                                        li.getTitle() + " by " + li.getBrand(), 1);
 
                             // Acknowledge success.
                             content.acknowledge();

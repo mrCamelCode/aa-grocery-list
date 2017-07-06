@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\a879807df4233897fa1093787681080c81b6318d\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\Cheerio\\.android\\build-cache\\83ed7f714531985166295ecb31d1737dd0c7be78\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cheerio\\Documents\\Josh\\AndroidStudioProjects\\AAGroceryList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Cheerio\\.android\\build-cache\\a879807df4233897fa1093787681080c81b6318d\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "C:\\Users\\Cheerio\\Documents\\GitHub\\aa-grocery-list\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Cheerio\Documents\GitHub\aa-grocery-list\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Cheerio\Documents\GitHub\aa-grocery-list\app\src\debug\shaders"/></dataSet></merger>
