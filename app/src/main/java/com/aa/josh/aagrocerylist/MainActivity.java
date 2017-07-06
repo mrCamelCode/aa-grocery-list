@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements AaSdkContentListe
         }
         catch(JSONException ex)
         {
-            Log.d("AASDK", "Failed to add item to list.");
+
         }
     }
 

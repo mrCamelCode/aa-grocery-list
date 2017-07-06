@@ -32,8 +32,6 @@ public class AAGroceryListApp extends Application
                     @Override
                     public void onContentAvailable(final Content content)
                     {
-                        Log.d("ADDIT", "Received");
-
                         // Handle the payload if it has something in it.
                         if (content.getPayload().size() > 0)
                         {
