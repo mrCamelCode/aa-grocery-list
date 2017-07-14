@@ -654,17 +654,6 @@
     <dimen name="notification_top_pad_large_text">5dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
-    <item name="aa_ad_app_icon_1" type="id"/>
-    <item name="aa_ad_app_icon_2" type="id"/>
-    <item name="aa_ad_campaign_image" type="id"/>
-    <item name="aa_ad_cta_1" type="id"/>
-    <item name="aa_ad_cta_2" type="id"/>
-    <item name="aa_ad_long_text" type="id"/>
-    <item name="aa_ad_sponsor_logo" type="id"/>
-    <item name="aa_ad_sponsor_name" type="id"/>
-    <item name="aa_ad_sponsor_text" type="id"/>
-    <item name="aa_ad_tag_line" type="id"/>
-    <item name="aa_ad_title" type="id"/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>

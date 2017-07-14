@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import java.io.Serializable;
+
 /**
  * A custom button class that holds a little more information
  * relevant to the grocery app, such as whether the item has
@@ -15,23 +17,53 @@ import android.widget.LinearLayout;
 
 public class ListItem extends AppCompatButton
 {
-    public boolean isRemoved;
-    public String itemName;
-    public int itemQuantity;
+    /*
+        Carries the data associated with the list item.
+     */
+    public class Data
+    {
+        private boolean isRemoved;
+        private String itemName;
+        private int itemQuantity;
 
-    private int backgroundColor = 0xff0099cc; // 0xffdddddd
-    private int removedBackgroundColor = 0x55ff0000;
+        public Data(boolean isRemoved, String itemName, int itemQuantity)
+        {
+            this.isRemoved = isRemoved;
+            this.itemName = itemName;
+            this.itemQuantity = itemQuantity;
+        }
+
+        public boolean getIsRemoved()
+        {
+            return isRemoved;
+        }
+
+        public String getItemName()
+        {
+            return itemName;
+        }
+
+        public int getItemQuantity()
+        {
+            return itemQuantity;
+        }
+    }
+
+    // The data for this list item.
+    public Data data;
+
+    private int backgroundColor = 0xff0099cc; // 0xffdddddd is an alternate color.
+    private int removedBackgroundColor = 0x55ff0000; // Light red.
     private int textColor = 0xffffffff;
     private int removedTextColor = 0xffffffff;
 
     // If setDefaults is true, the default styling for a list
     // item button is applied.
-    public ListItem(Context c, String itemName, int itemQuantity, boolean setDefaults)
+    public ListItem(Context c, boolean isRemoved, String itemName, int itemQuantity, boolean setDefaults)
     {
         super(c);
 
-        this.itemName = itemName;
-        this.itemQuantity = itemQuantity;
+        data = new Data(isRemoved, itemName, itemQuantity);
 
         if (setDefaults)
         {
@@ -46,7 +78,7 @@ public class ListItem extends AppCompatButton
                 {
                     ListItem li = (ListItem) v;
 
-                    if (li.isRemoved)
+                    if (li.data.isRemoved)
                         li.restore();
                     else
                         li.remove();
@@ -54,8 +86,8 @@ public class ListItem extends AppCompatButton
             });
 
             // In-depth styling
-            setBackgroundColor(backgroundColor);
-            setTextColor(textColor);
+            setBackgroundColor(data.isRemoved ? removedBackgroundColor : backgroundColor);
+            setTextColor(data.isRemoved ? removedTextColor : textColor);
             // START SET MARGIN
             // Create linear layout.
             LinearLayout.LayoutParams llp =
@@ -80,7 +112,7 @@ public class ListItem extends AppCompatButton
      */
     public void remove()
     {
-        isRemoved = true;
+        data.isRemoved = true;
 
         setBackgroundColor(removedBackgroundColor);
         setTextColor(removedTextColor);
@@ -95,7 +127,7 @@ public class ListItem extends AppCompatButton
      */
     public void restore()
     {
-        isRemoved = false;
+        data.isRemoved = false;
 
         setBackgroundColor(backgroundColor);
         setTextColor(textColor);

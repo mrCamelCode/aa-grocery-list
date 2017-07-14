@@ -3,6 +3,7 @@ package com.aa.josh.aagrocerylist;
 import android.app.ActivityManager;
 import android.app.Application;
 import android.util.Log;
+import android.view.View;
 
 import com.adadapted.android.sdk.AdAdapted;
 import com.adadapted.android.sdk.core.addit.AddToListItem;

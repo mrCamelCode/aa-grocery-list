@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Cheerio\.android\build-cache\143046670cc58a45969112f62c2f82c4640853da\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="c4fb22940515e90ed6c3810a9b60fe2bbb29e9f3">
-        <dex dex="C:\Users\Cheerio\Documents\GitHub\aa-grocery-list\app\build\intermediates\pre-dexed\debug\classes_0812cb39ce7cf15aeaa59bb5acd51ba2065a582f.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Cheerio\.android\build-cache\6b08960b1aa20552a505573b64f3f9f47dabe79b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -111,15 +102,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Cheerio\.android\build-cache\61bdac9c56395e7a80a19ad46125c8dab50594aa\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="52b43febf29d3cda962a26fceef3267f729744cf">
-        <dex dex="C:\Users\Cheerio\Documents\GitHub\aa-grocery-list\app\build\intermediates\pre-dexed\debug\classes_a9e9445d1f5ae8a7fddefadd5370841729f2e4cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Cheerio\.android\build-cache\1e968c50416097c0937e6894be1e73bcd5d89a47\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -144,6 +126,15 @@
         revision="25.0.3"
         sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
         <dex dex="C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\build\intermediates\pre-dexed\debug\classes_cc2f33f4d79d28affb115cf2205994a9d52687c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Cheerio\.android\build-cache\bd8bdf9ee2bed13379bf3341f41c918bb1c737b0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="52b43febf29d3cda962a26fceef3267f729744cf">
+        <dex dex="C:\Users\Cheerio\Documents\GitHub\aa-grocery-list\app\build\intermediates\pre-dexed\debug\classes_f8ae614bbfe0846c17cc8b0a7ff4fd6f7bea22e0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -180,6 +171,15 @@
         revision="25.0.3"
         sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
         <dex dex="C:\Users\Cheerio\Documents\Josh\AndroidStudioProjects\AAGroceryList\app\build\intermediates\pre-dexed\debug\classes_1e161facf0ca536e1ad21b2dfd3ba2c1ad2fc47d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Cheerio\.android\build-cache\9b534d10f8283fbb78be04eb0c82e49ff9dc717d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="618d2897cdfdc2c50687c13c7593ad16b9f28c3e">
+        <dex dex="C:\Users\Cheerio\Documents\GitHub\aa-grocery-list\app\build\intermediates\pre-dexed\debug\classes_65d7a34feea5a8cdff85d8cc1970542a8a73eac5.jar" />
     </item>
     <item
         is-multidex="false"
